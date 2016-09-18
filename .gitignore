@@ -47,4 +47,4 @@ Temporary Items
 .apdisk
 
 # Ignore compiled python files
-.pyc
+*.pyc
