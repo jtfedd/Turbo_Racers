@@ -48,3 +48,6 @@ Temporary Items
 
 # Ignore compiled python files
 *.pyc
+
+# Ignore contents of save directory
+saved/*
