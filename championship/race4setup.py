@@ -1,0 +1,78 @@
+from pandac.PandaModules import *
+from direct.showbase.DirectObject import DirectObject
+import random, sys, os, math
+from level_editor_data import *
+class RaceSetup(DirectObject):
+    def __init__(self, editor):
+        editor.bgr = 0.0383548997343
+        editor.bgg = 0.0809716284275
+        editor.bgb = 0.144300118089
+        editor.loadTerrain("championship/world/cw")
+        editor.terrain.setScale(VBase3(3.8418, 3.8418, 3.8418))
+        editor.terrain.setZ(0.0)
+        editor.alightBrightness = 0.276560783386
+        editor.dlightBrightness = 0.422544240952
+        editor.ships.append(setupShip(-194.0, -113.0, 0, -94.0))
+        editor.ships.append(setupShip(-194.0, -99.0, 1, -94.0))
+        editor.ships.append(setupShip(-194.0, -85.0, 2, -94.0))
+        editor.ships.append(setupShip(-194.0, -68.0, 3, -94.0))
+        editor.ships.append(setupShip(-210.0, -87.0, 4, -94.0))
+        editor.ships.append(setupShip(-210.0, -100.0, 5, -94.0))
+        editor.barriers.append(setupBarrier(-472.0, -232.0, 128.0))
+        editor.barriers.append(setupBarrier(-273.0, -220.0, 198.0))
+        editor.barriers.append(setupBarrier(-83.0, -229.0, 143.0))
+        editor.barriers.append(setupBarrier(-93.0, -432.0, 212.0))
+        editor.barriers.append(setupBarrier(-131.0, -438.0, 190.0))
+        editor.barriers.append(setupBarrier(-154.0, -420.0, -34.0))
+        editor.barriers.append(setupBarrier(-90.0, -416.0, 60.0))
+        editor.barriers.append(setupBarrier(-121.0, -427.0, 8.0))
+        editor.barriers.append(setupBarrier(-440.0, -457.0, 87.0))
+        editor.checkpoints.append(setupCheckpoint(-33.0, -329.0, -185.0, 0, 3))
+        editor.checkpoints.append(setupCheckpoint(-394.0, -344.0, 18.0, 1, 9))
+        editor.checkpoints.append(setupCheckpoint(-106.0, -282.0, 7.0, 2, 15))
+        editor.checkpoints.append(setupCheckpoint(-428.0, -226.0, 90.0, 3, 19))
+        editor.startingline = setupStartingline(-177.0, -90.0, -94.0)
+        editor.powerups.append(setupPowerup(-124.0, -141.0))
+        editor.powerups.append(setupPowerup(-113.0, -134.0))
+        editor.powerups.append(setupPowerup(-101.0, -126.0))
+        editor.powerups.append(setupPowerup(-91.0, -118.0))
+        editor.powerups.append(setupPowerup(-31.0, -272.0))
+        editor.powerups.append(setupPowerup(-17.0, -272.0))
+        editor.powerups.append(setupPowerup(-90.0, -344.0))
+        editor.powerups.append(setupPowerup(-109.0, -344.0))
+        editor.powerups.append(setupPowerup(-232.0, -292.0))
+        editor.powerups.append(setupPowerup(-232.0, -308.0))
+        editor.powerups.append(setupPowerup(-232.0, -327.0))
+        editor.powerups.append(setupPowerup(-329.0, -422.0))
+        editor.powerups.append(setupPowerup(-410.0, -422.0))
+        editor.powerups.append(setupPowerup(-375.0, -228.0))
+        editor.powerups.append(setupPowerup(-210.0, -224.0))
+        editor.powerups.append(setupPowerup(-210.0, -238.0))
+        editor.powerups.append(setupPowerup(-210.0, -252.0))
+        editor.powerh.append(setupPowerh(-50.0, -272.0))
+        editor.waypoints.append(setupWaypoint(-124.0, -121.0, 0))
+        editor.waypoints.append(setupWaypoint(-52.0, -165.0, 1))
+        editor.waypoints.append(setupWaypoint(-38.0, -204.0, 2))
+        editor.waypoints.append(setupWaypoint(-38.0, -418.0, 4))
+        editor.waypoints.append(setupWaypoint(-62.0, -458.0, 5))
+        editor.waypoints.append(setupWaypoint(-167.0, -457.0, 6))
+        editor.waypoints.append(setupWaypoint(-305.0, -448.0, 7))
+        editor.waypoints.append(setupWaypoint(-345.0, -397.0, 8))
+        editor.waypoints.append(setupWaypoint(-396.0, -303.0, 10))
+        editor.waypoints.append(setupWaypoint(-351.0, -283.0, 11))
+        editor.waypoints.append(setupWaypoint(-187.0, -324.0, 12))
+        editor.waypoints.append(setupWaypoint(-146.0, -390.0, 13))
+        editor.waypoints.append(setupWaypoint(-100.0, -389.0, 14))
+        editor.waypoints.append(setupWaypoint(-178.0, -240.0, 16))
+        editor.waypoints.append(setupWaypoint(-300.0, -243.0, 17))
+        editor.waypoints.append(setupWaypoint(-355.0, -228.0, 18))
+        editor.waypoints.append(setupWaypoint(-468.0, -192.0, 21))
+        editor.waypoints.append(setupWaypoint(-448.0, -142.0, 22))
+        editor.waypoints.append(setupWaypoint(-368.0, -107.0, 23))
+        editor.waypoints.append(setupWaypoint(-247.0, -90.0, 24))
+        editor.waypoints.append(setupWaypoint(-202.0, -95.0, 25))
+        editor.waypoints.append(setupWaypoint(-443.0, -227.0, 20))
+        editor.laps = 3
+        editor.winCredits = 600
+        editor.minPlace = 1
+        editor.setValues()

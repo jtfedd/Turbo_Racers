@@ -1,0 +1,55 @@
+<Comment> {
+  "egg-texture-cards -o ship4.egg ship4.jpg ship4light.jpg locked.png"
+}
+<Texture> ship4light {
+  ship4light.png
+}
+<Texture> ship4 {
+  ship4.png
+}
+<Texture> locked {
+  locked.png
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> ship4 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ship4 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> ship4light {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { ship4light }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> locked {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { locked }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+<Comment> {
+  "egg-texture-cards -o help.egg help.png helplight.png"
+}
+<Texture> helplight {
+  helplight.png
+}
+<Texture> help {
+  help.png
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> help {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { help }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> helplight {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { helplight }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

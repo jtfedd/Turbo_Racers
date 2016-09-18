@@ -1,0 +1,46 @@
+<CoordinateSystem> { Z-up }
+
+<Comment> { "Egg laid by Chicken for Blender, version R91" }
+
+<Texture> arrow.png {
+  "./textures/arrow.png"
+  <Scalar> saved-result { 1 }
+  <Scalar> envtype { MODULATE }
+  <Scalar> minfilter { LINEAR }
+  <Scalar> magfilter { LINEAR }
+  <Scalar> wrap { REPEAT }
+}
+<Group> Plane {
+  <Transform> {
+    <Matrix4> {
+      1.000000 -0.000000 -0.000000 0.000000
+      0.000000 -0.000000 1.000000 0.000000
+      -0.000000 -1.000000 -0.000000 0.000000
+      0.000000 0.000000 0.000000 1.000000
+    }
+  }
+  <VertexPool> Plane {
+    <Vertex> 0 {
+      1.00000011921 -9.93478792566e-08 0.999999880791
+      <UV>  { 0.003059 0.000000 }
+    }
+    <Vertex> 1 {
+      -0.999999582767 7.54980717943e-08 1.00000047684
+      <UV>  { 1.000000 0.003058 }
+    }
+    <Vertex> 2 {
+      -1.00000035763 9.93479005729e-08 -0.999999761581
+      <UV>  { 0.996942 1.000000 }
+    }
+    <Vertex> 3 {
+      0.999999940395 -7.5498100216e-08 -1.00000011921
+      <UV>  { 0.000000 0.996942 }
+    }
+  }
+  <Polygon> {
+    <TRef> { arrow.png }
+    <Normal> { -0.000000 -1.000000 -0.000000
+    }
+    <VertexRef> { 0 1 2 3 <Ref> { Plane } }
+  }
+}

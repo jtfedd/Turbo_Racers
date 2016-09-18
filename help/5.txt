@@ -1,0 +1,12 @@
+Controls - cont.
+
+The controls for player 2 are:
+turn left - F
+turn right - H
+accelerate - T
+decelerate/reverse - G
+fire powerup - S
+cycle target left - A
+cycle target right - D
+change camera view - W
+look backwards - E

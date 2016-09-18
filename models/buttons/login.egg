@@ -1,0 +1,61 @@
+<Comment> {
+  "egg-texture-cards -o login.egg -p 128,64 login.png loginlight.png"
+}
+<Texture> loginlight {
+  loginlight.png
+}
+<Texture> login {
+  login.png
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+    <Vertex> 4 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 5 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 6 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 7 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> login {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { login }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> loginlight {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { loginlight }
+      <VertexRef> { 4 5 6 7 <Ref> { vpool } }
+    }
+  }
+}

@@ -1,0 +1,45 @@
+<Comment> {
+  "egg-texture-cards -o larrow.egg larrow.png larrowlight.png"
+}
+<Texture> larrowlight {
+  larrowlight.png
+}
+<Texture> larrow {
+  larrow.png
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> larrow {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { larrow }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> larrowlight {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { larrowlight }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

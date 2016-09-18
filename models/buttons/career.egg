@@ -1,0 +1,45 @@
+<Comment> {
+  "egg-texture-cards -o career.egg career.png careerlight.png"
+}
+<Texture> careerlight {
+  careerlight.png
+}
+<Texture> career {
+  career.png
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> career {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { career }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> careerlight {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { careerlight }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

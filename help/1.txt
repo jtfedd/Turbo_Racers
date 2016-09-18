@@ -1,0 +1,15 @@
+Welcome to Turbo Racers help.
+Use the arrows to scroll side to side.
+
+Game Files
+
+To log in to Turbo Racers, click login
+and either select a previous user, type in
+a previous user, or type a new user. Games
+will be saved automatically.
+
+User menu
+
+On the user menu, there are three options
+in order from left to right: single player,
+career, and multiplayer.

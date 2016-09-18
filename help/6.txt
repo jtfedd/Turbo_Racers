@@ -1,0 +1,11 @@
+Powerups
+
+There are two types of powerups - 
+Weapons and Health
+
+Health powerups are green and replenish
+lost hitpoints. Weapon powerups are yellow
+and give you a weapon you can use against
+other ships. If you have a weapon and you
+get a second weapon powerup, your weapon
+is upgraded.

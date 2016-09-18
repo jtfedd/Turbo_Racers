@@ -1,0 +1,12 @@
+Controls
+
+The controls for player 1 are:
+turn left - left arrow
+turn right - right arrow
+accelerate - up arrow
+decelerate/reverse - down arrow
+fire powerup - K
+cycle target left - J
+cycle target right - L
+change camera view - I
+look backwards - O

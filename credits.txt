@@ -1,0 +1,31 @@
+Credits
+
+Programming
+
+Brisingr
+
+
+Art
+
+Brisingr
+www.artvex.com
+
+
+Sound Effects
+
+Brisingr
+
+
+Music
+
+www.soundjay.com
+www.pacdv.com/sounds
+
+
+Software
+
+Panda3D Game Engine
+Blender
+Audacity
+Gimp
+PyPE

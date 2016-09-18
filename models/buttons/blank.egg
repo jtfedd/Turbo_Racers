@@ -1,0 +1,55 @@
+<Comment> {
+  "egg-texture-cards -o blank.egg blank.png blanklight.png blankdisabled.png"
+}
+<Texture> blanklight {
+  blanklight.png
+}
+<Texture> blankdisabled {
+  blankdisabled.png
+}
+<Texture> blank {
+  blank.png
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> blank {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { blank }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> blanklight {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { blanklight }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> blankdisabled {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { blankdisabled }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

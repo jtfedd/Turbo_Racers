@@ -1,0 +1,5 @@
+fullscreen=1
+resolution=win-size 1920 1080
+frameratemeter=0
+bloom=1
+3d=0

@@ -1,0 +1,45 @@
+<Comment> {
+  "egg-texture-cards -o options.egg options.png optionslight.png"
+}
+<Texture> optionslight {
+  optionslight.png
+}
+<Texture> options {
+  options.png
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> options {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { options }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> optionslight {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { optionslight }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

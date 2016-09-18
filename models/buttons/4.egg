@@ -1,0 +1,45 @@
+<Comment> {
+  "egg-texture-cards -o 4.egg 4.png 4light.png"
+}
+<Texture> 4light {
+  4light.png
+}
+<Texture> 4 {
+  4.png
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 2 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> 4 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { 4 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> 4light {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { 4light }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

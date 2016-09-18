@@ -1,0 +1,4 @@
+This race is fairly simple - just
+a giant loop around a lava lake.
+Be careful not to cut the corners
+too far.

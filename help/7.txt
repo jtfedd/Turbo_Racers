@@ -1,0 +1,10 @@
+Powerups-continued
+
+There are seven types of seapons:
+Rocket - upgrade Targeted
+Cruise Missile - upgrade Targeted
+Desinigrater - upgrade Targeted
+Mine - upgrade  Minefield
+Seismic Charge - upgrade Triggered Seismic Charge
+Shield - upgrade to Long Shield
+Boost - upgrade to Long Boost

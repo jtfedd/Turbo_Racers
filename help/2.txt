@@ -1,0 +1,14 @@
+Career mode
+
+In career mode, there is an explanation of the current race,
+a button to start the next race, and a garage button to enter the
+garage (where you can update your ship).  You can ONLY do the CURRENT
+race in career mode. If you want to replay a previous race, you must use
+single player mode.
+
+Garage
+
+In the garage, you can buy upgrades for your ship(s). Click the corresponding 
+button to purchase an upgrade. Upgrades are automatically used in career 
+mode, optionally used in single player mode, and never used in multiplayer 
+mode.

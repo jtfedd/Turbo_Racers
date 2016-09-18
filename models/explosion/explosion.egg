@@ -1,0 +1,586 @@
+<Comment> {
+  "egg-texture-cards -o explosion.egg -fps 25 explosion0000.png explosion0001.png explosion0002.png explosion0003.png explosion0004.png explosion0005.png explosion0006.png explosion0007.png explosion0008.png explosion0009.png explosion0010.png explosion0011.png explosion0012.png explosion0013.png explosion0014.png explosion0015.png explosion0016.png explosion0017.png explosion0018.png explosion0019.png explosion0020.png explosion0021.png explosion0022.png explosion0023.png explosion0024.png explosion0025.png explosion0026.png explosion0027.png explosion0028.png explosion0029.png explosion0030.png explosion0031.png explosion0032.png explosion0033.png explosion0034.png explosion0035.png explosion0036.png explosion0037.png explosion0038.png explosion0039.png explosion0040.png explosion0041.png explosion0042.png explosion0043.png explosion0044.png explosion0045.png explosion0046.png explosion0047.png explosion0048.png explosion0049.png explosion0050.png"
+}
+<Texture> explosion0050 {
+  explosion0050.png
+}
+<Texture> explosion0049 {
+  explosion0049.png
+}
+<Texture> explosion0048 {
+  explosion0048.png
+}
+<Texture> explosion0047 {
+  explosion0047.png
+}
+<Texture> explosion0046 {
+  explosion0046.png
+}
+<Texture> explosion0045 {
+  explosion0045.png
+}
+<Texture> explosion0044 {
+  explosion0044.png
+}
+<Texture> explosion0043 {
+  explosion0043.png
+}
+<Texture> explosion0042 {
+  explosion0042.png
+}
+<Texture> explosion0041 {
+  explosion0041.png
+}
+<Texture> explosion0040 {
+  explosion0040.png
+}
+<Texture> explosion0039 {
+  explosion0039.png
+}
+<Texture> explosion0038 {
+  explosion0038.png
+}
+<Texture> explosion0037 {
+  explosion0037.png
+}
+<Texture> explosion0036 {
+  explosion0036.png
+}
+<Texture> explosion0035 {
+  explosion0035.png
+}
+<Texture> explosion0034 {
+  explosion0034.png
+}
+<Texture> explosion0033 {
+  explosion0033.png
+}
+<Texture> explosion0032 {
+  explosion0032.png
+}
+<Texture> explosion0031 {
+  explosion0031.png
+}
+<Texture> explosion0030 {
+  explosion0030.png
+}
+<Texture> explosion0029 {
+  explosion0029.png
+}
+<Texture> explosion0028 {
+  explosion0028.png
+}
+<Texture> explosion0027 {
+  explosion0027.png
+}
+<Texture> explosion0026 {
+  explosion0026.png
+}
+<Texture> explosion0025 {
+  explosion0025.png
+}
+<Texture> explosion0024 {
+  explosion0024.png
+}
+<Texture> explosion0023 {
+  explosion0023.png
+}
+<Texture> explosion0022 {
+  explosion0022.png
+}
+<Texture> explosion0021 {
+  explosion0021.png
+}
+<Texture> explosion0020 {
+  explosion0020.png
+}
+<Texture> explosion0019 {
+  explosion0019.png
+}
+<Texture> explosion0018 {
+  explosion0018.png
+}
+<Texture> explosion0017 {
+  explosion0017.png
+}
+<Texture> explosion0016 {
+  explosion0016.png
+}
+<Texture> explosion0015 {
+  explosion0015.png
+}
+<Texture> explosion0014 {
+  explosion0014.png
+}
+<Texture> explosion0013 {
+  explosion0013.png
+}
+<Texture> explosion0012 {
+  explosion0012.png
+}
+<Texture> explosion0011 {
+  explosion0011.png
+}
+<Texture> explosion0010 {
+  explosion0010.png
+}
+<Texture> explosion0009 {
+  explosion0009.png
+}
+<Texture> explosion0008 {
+  explosion0008.png
+}
+<Texture> explosion0007 {
+  explosion0007.png
+}
+<Texture> explosion0006 {
+  explosion0006.png
+}
+<Texture> explosion0005 {
+  explosion0005.png
+}
+<Texture> explosion0004 {
+  explosion0004.png
+}
+<Texture> explosion0003 {
+  explosion0003.png
+}
+<Texture> explosion0002 {
+  explosion0002.png
+}
+<Texture> explosion0001 {
+  explosion0001.png
+}
+<Texture> explosion0000 {
+  explosion0000.png
+}
+<Group> {
+  <Switch> { 1 }
+  <Scalar> fps { 25 }
+  <VertexPool> vpool {
+    <Vertex> 0 {
+      -0.5 0.5 0
+      <UV> { 0 1 }
+    }
+    <Vertex> 1 {
+      -0.5 -0.5 0
+      <UV> { 0 0 }
+    }
+    <Vertex> 2 {
+      0.5 -0.5 0
+      <UV> { 1 0 }
+    }
+    <Vertex> 3 {
+      0.5 0.5 0
+      <UV> { 1 1 }
+    }
+  }
+  <Group> explosion0000 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0000 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0001 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0001 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0002 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0002 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0003 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0003 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0004 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0004 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0005 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0005 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0006 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0006 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0007 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0007 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0008 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0008 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0009 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0009 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0010 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0010 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0011 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0011 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0012 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0012 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0013 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0013 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0014 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0014 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0015 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0015 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0016 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0016 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0017 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0017 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0018 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0018 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0019 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0019 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0020 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0020 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0021 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0021 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0022 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0022 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0023 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0023 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0024 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0024 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0025 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0025 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0026 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0026 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0027 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0027 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0028 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0028 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0029 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0029 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0030 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0030 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0031 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0031 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0032 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0032 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0033 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0033 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0034 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0034 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0035 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0035 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0036 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0036 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0037 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0037 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0038 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0038 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0039 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0039 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0040 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0040 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0041 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0041 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0042 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0042 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0043 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0043 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0044 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0044 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0045 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0045 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0046 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0046 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0047 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0047 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0048 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0048 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0049 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0049 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+  <Group> explosion0050 {
+    <Polygon> {
+      <RGBA> { 1 1 1 1 }
+      <TRef> { explosion0050 }
+      <BFace> { 1 }
+      <VertexRef> { 0 1 2 3 <Ref> { vpool } }
+    }
+  }
+}

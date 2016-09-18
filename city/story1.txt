@@ -1,0 +1,8 @@
+Welcome to Turbo Racers! Here you will be
+notified of upcoming races. There are six
+tournaments, and five races in each tournament. When
+you win races, you will be given credits. These can
+be used to upgrade your car in the garage. Your 
+opponents will also upgrade their cars-so watch out!
+For now, you have been accepted into the City 
+tournament. You must get first to go on. Good luck.
