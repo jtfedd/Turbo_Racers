@@ -739,10 +739,10 @@ class login(DirectObject):
                     if hasattr(Savedmodule, 'SavedGame'):
                         try:
                             self.users.append(Savedmodule.SavedGame())
-                        except Exception, e:
-                            print 'Error %s' % e
+                        except Exception as e:
+                            print('Error %s' % e)
                     else:
-                        print 'No saved game in %s' % Savedmodule
+                        print('No saved game in %s' % Savedmodule)
                 finally:
                     if file:
                         file.close()
